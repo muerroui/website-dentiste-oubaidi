@@ -30,9 +30,23 @@ body {
 
 /* Rendus 3D détourés sans fond blanc sur les cartes Spécialités */
 img[src*="mimosa-spec-"] {
-  object-fit: contain !important;
   background: transparent !important;
-  filter: drop-shadow(0 16px 26px rgba(4, 20, 38, 0.16));
+  filter: drop-shadow(0 14px 22px rgba(4, 20, 38, 0.14));
+}
+
+.condition-item-image img[src*="mimosa-spec-"] {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center 45%;
+  -webkit-mask-image:
+    linear-gradient(to bottom, #000 62%, transparent 100%),
+    linear-gradient(to right, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to bottom, #000 62%, transparent 100%),
+    linear-gradient(to right, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  mask-composite: intersect;
 }
 
 /* Contraste garanti de la navbar sur pages à hero clair */
