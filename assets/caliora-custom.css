@@ -1,0 +1,321 @@
+/* ==========================================================================
+   MIMOSA SMILE — CALIORA COMPLEMENTARY STYLES (NO IX3 ANIMATION CONFLICTS)
+   Webflow IX3 + GSAP 3.15 + SplitText + ScrollTrigger + Lenis gèrent toutes
+   les animations natives du template. Ce fichier ne gère que la marque, le
+   contraste navbar light-hero, la défense d'icônes et les widgets métier.
+   ========================================================================== */
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Marque Mimosa Smile intégrée dans le header & footer Caliora */
+.brand-logo-image {
+  border-radius: 999px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  width: 2.35rem;
+  height: 2.35rem;
+}
+
+.footer-brand-logo-image {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Contraste garanti de la navbar sur pages à hero clair */
+.nav.is-light-hero {
+  color: var(--text-colors--primary-text);
+  position: relative;
+}
+
+.nav.is-light-hero .logo-link,
+.nav.is-light-hero .nav-link,
+.nav.is-light-hero .brand-name-text,
+.nav.is-light-hero .brand-slogan {
+  color: var(--text-colors--primary-text);
+}
+
+.nav.is-light-hero .nav-link-icon {
+  filter: brightness(0.15);
+}
+
+/* Défense systématique des icônes Caliora inter-pages */
+.contact-icon {
+  z-index: 5;
+  width: var(--_layout---raw-sizes--size-125, 1.25rem);
+  height: var(--_layout---raw-sizes--size-125, 1.25rem);
+  object-fit: contain;
+  max-width: none;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.sibebar-icon,
+.direction-icon,
+.lightbox-icon {
+  width: var(--_layout---raw-sizes--size-125, 1.25rem);
+  height: var(--_layout---raw-sizes--size-125, 1.25rem);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Bouton burger au-dessus du tiroir plein écran */
+.burger-menu {
+  z-index: 1002 !important;
+}
+
+/* Astérisque discret en rotation continue dans le menu */
+@keyframes calioraSpinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.menu-visual-image {
+  animation: calioraSpinSlow 24s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-visual-image {
+    animation: none !important;
+  }
+}
+
+/* Lightbox plein écran pour images sans .w-json */
+.caliora-lightbox-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background-color: rgba(14, 18, 22, 0.9);
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.caliora-lightbox-modal.is-open {
+  display: flex;
+}
+
+.caliora-lightbox-modal img {
+  max-width: 92vw;
+  max-height: 86vh;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.caliora-lightbox-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: #ffffff;
+  color: #161616;
+  border: 0;
+  border-radius: 999rem;
+  width: 44px;
+  height: 44px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* États radio / checkbox / formulaire WhatsApp */
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: var(--_colors---brand-accent-primary--brand-accent-900);
+  border-color: var(--_colors---brand-accent-primary--brand-accent-900);
+  background-image: url("./caliora/69e4bb082d4d24ec5ad4040f_check-mark.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.form-field-wrap {
+  position: relative;
+}
+
+.tab-form-field,
+.radio-field {
+  cursor: pointer;
+}
+
+.tab-form-field.is-checked {
+  background-color: var(--_colors---brand-accent-primary--brand-accent-900);
+  color: var(--text-colors--inverse-text);
+  border-color: var(--_colors---brand-accent-primary--brand-accent-900);
+}
+
+.tab-form-field.is-checked .radio-label {
+  color: var(--text-colors--inverse-text);
+}
+
+.field-helper-feedback {
+  font-size: 0.85rem;
+  margin-top: 6px;
+  color: var(--_colors---brand-accent-primary--brand-accent-700);
+}
+
+.field-helper-feedback.is-error {
+  color: #9B2C24;
+  font-weight: 500;
+}
+
+.field-helper-feedback.is-ok {
+  color: #2D5A3F;
+  font-weight: 500;
+}
+
+/* Honoraires & Devis Écrit */
+.caliora-fee-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.caliora-fee-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.caliora-fee-pill {
+  padding: 0.6rem 1.15rem;
+  border-radius: 999rem;
+  border: 1px solid var(--_colors---brand-accent-primary--brand-accent-300);
+  background-color: var(--section-colors--light-subtle);
+  color: var(--text-colors--primary-text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.caliora-fee-pill:hover,
+.caliora-fee-pill.active {
+  background-color: var(--_colors---brand-accent-primary--brand-accent-900);
+  color: var(--text-colors--inverse-text);
+  border-color: var(--_colors---brand-accent-primary--brand-accent-900);
+}
+
+.caliora-fee-table-wrap {
+  background-color: var(--_colors---brand-accent-primary--brand-accent-10);
+  border: 1px solid var(--_colors---brand-accent-primary--brand-accent-200);
+  border-radius: var(--_layout---radius--radius-large, 10px);
+  overflow-x: auto;
+}
+
+.caliora-fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.caliora-fee-table th,
+.caliora-fee-table td {
+  padding: 1.15rem 1.35rem;
+  border-bottom: 1px solid var(--_colors---brand-accent-primary--brand-accent-200);
+  font-size: 0.95rem;
+  vertical-align: top;
+}
+
+.caliora-fee-table th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background-color: var(--section-colors--light-subtle);
+  color: var(--text-colors--primary-text);
+}
+
+.caliora-fee-table tr.is-hidden {
+  display: none;
+}
+
+.caliora-fee-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.caliora-map-frame {
+  width: 100%;
+  height: 460px;
+  border: 0;
+  border-radius: var(--_layout---radius--radius-large, 10px);
+  display: block;
+}
+
+/* Barre d'action mobile discrète en pied de vue */
+.mobile-sticky-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 990;
+  background-color: var(--_colors---brand-accent-primary--brand-accent-950);
+  border-top: 1px solid var(--_colors---brand-accent-primary--brand-accent-700);
+  padding: 10px 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.mobile-sticky-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 999rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.mobile-sticky-btn.is-call {
+  background-color: var(--_colors---brand-accent-primary--brand-accent-10);
+  color: var(--_colors---brand-accent-primary--brand-accent-950);
+}
+
+.mobile-sticky-btn.is-whatsapp {
+  background-color: var(--_colors---brand-accent-primary--brand-accent-200);
+  color: var(--_colors---brand-accent-primary--brand-accent-950);
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding-bottom: 72px;
+  }
+
+  .mobile-sticky-cta {
+    display: grid;
+  }
+
+  .caliora-fee-table,
+  .caliora-fee-table thead,
+  .caliora-fee-table tbody,
+  .caliora-fee-table tr,
+  .caliora-fee-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .caliora-fee-table thead {
+    display: none;
+  }
+
+  .caliora-fee-table tr {
+    border-bottom: 1px solid var(--_colors---brand-accent-primary--brand-accent-200);
+    padding: 0.75rem 1rem;
+  }
+
+  .caliora-fee-table td {
+    border-bottom: 0;
+    padding: 0.35rem 0;
+  }
+}

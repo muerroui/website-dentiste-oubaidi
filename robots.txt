@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://mimosasmile.ma/sitemap.xml
