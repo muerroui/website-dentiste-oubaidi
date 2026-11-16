@@ -28,6 +28,13 @@ body {
   height: 2.75rem;
 }
 
+/* Rendus 3D détourés sans fond blanc sur les cartes Spécialités */
+img[src*="mimosa-spec-"] {
+  object-fit: contain !important;
+  background: transparent !important;
+  filter: drop-shadow(0 16px 26px rgba(4, 20, 38, 0.16));
+}
+
 /* Contraste garanti de la navbar sur pages à hero clair */
 .nav.is-light-hero {
   color: var(--text-colors--primary-text);
