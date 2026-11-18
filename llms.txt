@@ -5,7 +5,8 @@
 ## Informations Clés (NAP & Spécialités)
 - **Nom de la clinique** : Mimosa Smile — Clinique Dentaire Dr. Oubaidi
 - **Praticien référent** : Dr. Oubaidi, Chirurgien-Dentiste à Kénitra
-- **Ville & Quartiers desservis** : Kénitra (Quartier Mimosa, Centre-Ville, La Ville Haute, Maamora, Bir Rami, Ouled Oujih, Le Vallon, Avenue Mohammed V, Mehdia, Saknia, Bab Fès, Haddada)
+- **Adresse du cabinet** : 23 Av. Chakib Arslan, Résidence Khadija Oum Al Mouminine, Bureau 01, Kénitra 14000
+- **Ville & Quartiers desservis** : Kénitra (Quartier Mimosa, Centre-Ville, La Ville Haute, Maamora, Bir Rami, Ouled Oujih, Le Vallon, Mehdia, Saknia, Bab Fès, Haddada)
 - **Site officiel** : https://mimosasmile.ma/
 - **Spécialités principales** :
   - Implantologie dentaire guidée 3D & Couronnes en Zircone
