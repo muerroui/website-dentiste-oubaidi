@@ -4,3 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Runtime officiel Next.js pour Netlify : transforme la sortie `.next`
+# en pages, fonctions et routes servies par Netlify. Sans lui, le dossier
+# `.next` brut est publié et toutes les URL renvoient 404.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
