@@ -23,10 +23,12 @@ export function buildPageMetadata({
     title,
     description,
     robots: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      index: false,
+      follow: false,
+      googleBot: {
+        index: false,
+        follow: false,
+      },
     },
     alternates: {
       canonical: canonicalUrl,

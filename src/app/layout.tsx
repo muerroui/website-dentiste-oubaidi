@@ -20,6 +20,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mimosasmile.ma"),
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
   icons: {
     icon: [{ url: "/assets/favicon-mimosa-smile.svg", type: "image/svg+xml" }],
   },

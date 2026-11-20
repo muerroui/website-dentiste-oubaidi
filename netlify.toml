@@ -10,3 +10,8 @@
 # `.next` brut est publié et toutes les URL renvoient 404.
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
