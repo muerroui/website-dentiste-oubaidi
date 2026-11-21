@@ -32,7 +32,7 @@ const CONTACT_FAQS = [
   {
     question: "Puis-je obtenir un créneau d’urgence le jour même au cabinet ?",
     answer:
-      "Oui, des horaires quotidiens permettent de soulager rapidement rage de dent, abcès, dent cassée ou couronne descellée. Appelez le 05 37 36 48 20 ou écrivez par WhatsApp.",
+      "Oui, des horaires quotidiens permettent de soulager rapidement rage de dent, abcès, dent cassée ou couronne descellée. Appelez le 05 30 59 48 00 ou écrivez par WhatsApp.",
   },
   {
     question: "Où trouver l’adresse cabinet dentaire Mimosa Kénitra près de la Gare LGV ?",

@@ -4,9 +4,9 @@ export const CLINIC_INFO = {
   fullName: "Mimosa Smile — Clinique Dentaire Dr. Oubaidi Kénitra",
   shortSubtitle: "Dr. Oubaidi · Kénitra",
   siteUrl: "https://mimosasmile.ma",
-  phoneDisplay: "05 37 36 48 20",
-  phoneHref: "tel:+212537364820",
-  phoneSchema: "+212-537-364820",
+  phoneDisplay: "05 30 59 48 00",
+  phoneHref: "tel:+212530594800",
+  phoneSchema: "+212-530-594800",
   whatsappDisplay: "06 61 48 20 90",
   whatsappNumber: "212661482090",
   whatsappHref:

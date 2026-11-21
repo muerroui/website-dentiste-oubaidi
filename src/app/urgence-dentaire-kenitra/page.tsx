@@ -13,7 +13,7 @@ import { PageStylesheet } from "@/components/layout/PageStylesheet";
 export const metadata: Metadata = buildPageMetadata({
   title: "Urgence Dentaire Kénitra : Dentiste Urgence Jour Même | Mimosa Smile",
   description:
-    "Urgence dentaire Kénitra : rage de dent, abcès ou dent cassée Kénitra ? Le Dr. Oubaidi propose un rendez-vous dentiste urgence jour même Kénitra. Appelez le 05 37 36 48 20.",
+    "Urgence dentaire Kénitra : rage de dent, abcès ou dent cassée Kénitra ? Le Dr. Oubaidi propose un rendez-vous dentiste urgence jour même Kénitra. Appelez le 05 30 59 48 00.",
   path: "/urgence-dentaire-kenitra",
 });
 
@@ -123,7 +123,7 @@ const URGENCE_FAQS = [
   {
     question: "Prenez-vous sans rendez-vous pour une urgence dentaire à Kénitra ?",
     answer:
-      "Des créneaux d’urgence sont réservés chaque jour au cabinet. Appelez le 05 37 36 48 20 ou écrivez sur WhatsApp avant de vous déplacer pour passer en priorité sans attente inutile.",
+      "Des créneaux d’urgence sont réservés chaque jour au cabinet. Appelez le 05 30 59 48 00 ou écrivez sur WhatsApp avant de vous déplacer pour passer en priorité sans attente inutile.",
   },
   {
     question: "Quel est le coût d’une consultation d’urgence ?",

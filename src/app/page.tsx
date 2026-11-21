@@ -35,7 +35,7 @@ const HOME_FAQS = [
     number: "02",
     question: "Comment consulter le Dr Oubaidi dentiste Kénitra rapidement ?",
     answer:
-      "Pour fixer votre rendez-vous au cabinet dentaire, téléphonez au 05 37 36 48 20, envoyez un message WhatsApp au 06 61 48 20 90 ou complétez la demande en ligne.",
+      "Pour fixer votre rendez-vous au cabinet dentaire, téléphonez au 05 30 59 48 00, envoyez un message WhatsApp au 06 61 48 20 90 ou complétez la demande en ligne.",
     linkLabel: "Joindre la clinique Mimosa Smile",
     linkHref: "/contact-acces-kenitra",
   },

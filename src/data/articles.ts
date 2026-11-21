@@ -61,11 +61,11 @@ export const ARTICLES_DATA: ArticleData[] = [
       "Inlay-Onlay Céramique ou Couronne Zircone à Kénitra ? | Mimosa Smile",
     seoDescription:
       "Conseils du Dr. Oubaidi sur la différence couronne et inlay : comment réparer une dent abîmée sans couronne ou choisir une couronne zircone fixe à Kénitra.",
-    heroImage: "/assets/mimosa-spec-soins.jpg",
+    heroImage: "/assets/mimosa-blog-couronne-zircone-inlay.jpg",
     heroAlt:
       "Guide clinique couronne zircone et inlay-onlay céramique au cabinet Mimosa Smile",
     galleryImages: [
-      "/assets/mimosa-spec-soins.jpg",
+      "/assets/mimosa-blog-couronne-zircone-inlay.jpg",
       "/assets/mimosa-soin-couronnes.jpg",
       "/assets/mimosa-soins-composite-3d.jpg",
       "/assets/mimosa-soins-endodontie-3d.jpg",
@@ -154,11 +154,11 @@ export const ARTICLES_DATA: ArticleData[] = [
       "Facette E-max ou Composite Stratifié Esthétique à Kénitra | Mimosa Smile",
     seoDescription:
       "Comparatif facette E-max ou composite au cabinet Mimosa Smile Kénitra : facette dentaire sans tailler l’émail, durée de vie facette E-max et rendu naturel.",
-    heroImage: "/assets/mimosa-facettes-scanner-3d.jpg",
+    heroImage: "/assets/mimosa-blog-facettes-emax-composite.jpg",
     heroAlt:
       "Comparatif facette pelliculaire céramique E-max et composite stratifié esthétique",
     galleryImages: [
-      "/assets/mimosa-facettes-scanner-3d.jpg",
+      "/assets/mimosa-blog-facettes-emax-composite.jpg",
       "/assets/mimosa-soin-facettes.jpg",
       "/assets/mimosa-spec-facettes.jpg",
       "/assets/mimosa-facettes-blanchiment-3d.jpg",
@@ -243,11 +243,11 @@ export const ARTICLES_DATA: ArticleData[] = [
       "Aligneurs Invisibles Adulte Ado & Gouttière Transparente Kénitra | Mimosa Smile",
     seoDescription:
       "Orthodontie invisible Kénitra : comment choisir entre gouttière orthodontique transparente et bagues céramiques ? Durée traitement aligneur dentaire et conseils.",
-    heroImage: "/assets/mimosa-ortho-coffret-3d.jpg",
+    heroImage: "/assets/mimosa-blog-aligneurs-invisibles.jpg",
     heroAlt:
       "Gouttière orthodontique transparente et aligneurs invisibles pour adulte et ado",
     galleryImages: [
-      "/assets/mimosa-ortho-coffret-3d.jpg",
+      "/assets/mimosa-blog-aligneurs-invisibles.jpg",
       "/assets/mimosa-spec-orthodontie.jpg",
       "/assets/mimosa-ortho-ceramique-3d.jpg",
       "/assets/mimosa-facettes-scanner-3d.jpg",
@@ -332,11 +332,11 @@ export const ARTICLES_DATA: ArticleData[] = [
       "Bilan Implant Dentaire 3D Kénitra : Scanner Cone Beam & Étapes | Mimosa Smile",
     seoDescription:
       "Comment se passe un bilan implant dentaire 3D Kénitra ? Décryptage du scanner dentaire Cone Beam 3D, des étapes pose implant dentaire et de la chirurgie sans douleur.",
-    heroImage: "/assets/mimosa-implants-conebeam-3d.jpg",
+    heroImage: "/assets/mimosa-blog-bilan-implant-3d.jpg",
     heroAlt:
       "Examen sur scanner dentaire Cone Beam 3D pour implant à Kénitra",
     galleryImages: [
-      "/assets/mimosa-implants-conebeam-3d.jpg",
+      "/assets/mimosa-blog-bilan-implant-3d.jpg",
       "/assets/mimosa-spec-implants.jpg",
       "/assets/mimosa-implants-guide-3d.jpg",
       "/assets/mimosa-soin-couronnes.jpg",
@@ -410,11 +410,11 @@ export const ARTICLES_DATA: ArticleData[] = [
       "Gencive Qui Saigne au Brossage : Soin & Gingivite à Kénitra | Mimosa Smile",
     seoDescription:
       "Gencive qui saigne au brossage ? Comment arrêter le saignement des gencives avec un traitement gingivite parodontite et détartrage soin des gencives Kénitra.",
-    heroImage: "/assets/mimosa-soin-detartrage.jpg",
+    heroImage: "/assets/mimosa-blog-saignements-gencives.jpg",
     heroAlt:
       "Bilan parodontal et soin des gencives qui saignent à Kénitra",
     galleryImages: [
-      "/assets/mimosa-soin-detartrage.jpg",
+      "/assets/mimosa-blog-saignements-gencives.jpg",
       "/assets/mimosa-soins-composite-3d.jpg",
       "/assets/mimosa-spec-soins.jpg",
       "/assets/mimosa-soins-endodontie-3d.jpg",
